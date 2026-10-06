@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RIDEON 騎士安全帽專門店｜10款風格安全帽">
+  <title>RIDEON｜騎士安全帽專門店</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">RIDE<span>ON</span><small>HELMET LAB</small></a>
+    <nav>
+      <a href="#home">首頁</a>
+      <a href="#products">安全帽</a>
+      <a href="#about">品牌理念</a>
+      <a href="#contact">聯絡我們</a>
+    </nav>
+    <button class="cart-btn" id="cartBtn">🛒 購物車 <b id="cartCount">0</b></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">RIDE YOUR STYLE / 2026 COLLECTION</p>
+        <h1>戴上你的風格，<br><em>騎出下一段路。</em></h1>
+        <p class="hero-text">從城市通勤、賽道熱血到山野探險，10 款風格安全帽一次收齊。</p>
+        <a class="primary-btn" href="#products">立即探索 ↓</a>
+      </div>
+      <div class="hero-orbit">
+        <div class="orbit-dot"></div>
+        <strong>10</strong><span>MODELS</span>
+        <small>READY TO RIDE</small>
+      </div>
+      <div class="speed-lines"></div>
+    </section>
+
+    <section class="quick-tags">
+      <span>🔥 本月熱賣</span><span>⚡ 快速出貨</span><span>🛡️ 騎士安全首選</span><span>↩️ 7日鑑賞</span>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2>找到你的下一頂安全帽</h2>
+        </div>
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="全部">全部</button>
+          <button class="filter" data-filter="競速">競速</button>
+          <button class="filter" data-filter="街頭">街頭</button>
+          <button class="filter" data-filter="探險">探險</button>
+          <button class="filter" data-filter="復古">復古</button>
+        </div>
+      </div>
+      <div class="product-grid">
+        
+      <article class="product-card" data-category="城市">
+        <div class="product-image">
+          <img src="images/01.png" alt="Urban X1 都會全罩安全帽">
+          <span class="product-code">SH-01</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">都會全罩</p>
+          <h3>Urban X1</h3>
+          <p>日常通勤・安全與舒適兼具</p>
+          <div class="product-bottom">
+            <strong>NT$ 3,280</strong>
+            <button class="add-cart" data-code="01" data-name="Urban X1" data-price="3280" data-img="images/01.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="競速">
+        <div class="product-image">
+          <img src="images/02.png" alt="Racing R7 賽道版安全帽">
+          <span class="product-code">SH-02</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">賽道版</p>
+          <h3>Racing R7</h3>
+          <p>為速度而生・釋放你的競速魂</p>
+          <div class="product-bottom">
+            <strong>NT$ 4,580</strong>
+            <button class="add-cart" data-code="02" data-name="Racing R7" data-price="4580" data-img="images/02.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="街頭">
+        <div class="product-image">
+          <img src="images/03.png" alt="Street S3 街頭版安全帽">
+          <span class="product-code">SH-03</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">街頭版</p>
+          <h3>Street S3</h3>
+          <p>簡約有型・街頭騎士首選</p>
+          <div class="product-bottom">
+            <strong>NT$ 2,980</strong>
+            <button class="add-cart" data-code="03" data-name="Street S3" data-price="2980" data-img="images/03.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="空力">
+        <div class="product-image">
+          <img src="images/04.png" alt="Aero V2 空力版安全帽">
+          <span class="product-code">SH-04</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">空力版</p>
+          <h3>Aero V2</h3>
+          <p>流線外型・高速更穩定</p>
+          <div class="product-bottom">
+            <strong>NT$ 3,980</strong>
+            <button class="add-cart" data-code="04" data-name="Aero V2" data-price="3980" data-img="images/04.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="復古">
+        <div class="product-image">
+          <img src="images/05.png" alt="Classic C5 復古版安全帽">
+          <span class="product-code">SH-05</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">復古版</p>
+          <h3>Classic C5</h3>
+          <p>經典風格・現代安全</p>
+          <div class="product-bottom">
+            <strong>NT$ 2,680</strong>
+            <button class="add-cart" data-code="05" data-name="Classic C5" data-price="2680" data-img="images/05.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="探險">
+        <div class="product-image">
+          <img src="images/06.png" alt="Adventure A9 探險版安全帽">
+          <span class="product-code">SH-06</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">探險版</p>
+          <h3>Adventure A9</h3>
+          <p>無懼地形・探索更多可能</p>
+          <div class="product-bottom">
+            <strong>NT$ 4,280</strong>
+            <button class="add-cart" data-code="06" data-name="Adventure A9" data-price="4280" data-img="images/06.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="碳纖">
+        <div class="product-image">
+          <img src="images/07.png" alt="Carbon Z1 碳纖維版安全帽">
+          <span class="product-code">SH-07</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">碳纖維版</p>
+          <h3>Carbon Z1</h3>
+          <p>輕量・強悍・極致性能</p>
+          <div class="product-bottom">
+            <strong>NT$ 6,880</strong>
+            <button class="add-cart" data-code="07" data-name="Carbon Z1" data-price="6880" data-img="images/07.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="未來">
+        <div class="product-image">
+          <img src="images/08.png" alt="Neo N4 未來版安全帽">
+          <span class="product-code">SH-08</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">未來版</p>
+          <h3>Neo N4</h3>
+          <p>引領未來・展現你的風格</p>
+          <div class="product-bottom">
+            <strong>NT$ 4,980</strong>
+            <button class="add-cart" data-code="08" data-name="Neo N4" data-price="4980" data-img="images/08.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="旅行">
+        <div class="product-image">
+          <img src="images/09.png" alt="Touring T6 旅行版安全帽">
+          <span class="product-code">SH-09</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">旅行版</p>
+          <h3>Touring T6</h3>
+          <p>長途旅行・舒適與安全同行</p>
+          <div class="product-bottom">
+            <strong>NT$ 3,680</strong>
+            <button class="add-cart" data-code="09" data-name="Touring T6" data-price="3680" data-img="images/09.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-category="低調">
+        <div class="product-image">
+          <img src="images/10.png" alt="Stealth B8 消光黑安全帽">
+          <span class="product-code">SH-10</span>
+          <button class="heart" aria-label="收藏">♡</button>
+        </div>
+        <div class="product-info">
+          <p class="product-type">消光黑</p>
+          <h3>Stealth B8</h3>
+          <p>低調沉穩・展現獨特風格</p>
+          <div class="product-bottom">
+            <strong>NT$ 3,180</strong>
+            <button class="add-cart" data-code="10" data-name="Stealth B8" data-price="3180" data-img="images/10.png">加入購物車 ＋</button>
+          </div>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div>
+        <p class="eyebrow">WHY RIDEON</p>
+        <h2>不只是一頂安全帽，<br><em>是你的騎乘風格。</em></h2>
+      </div>
+      <div class="about-points">
+        <article><b>01</b><h3>風格多元</h3><p>從復古、街頭到競速與探險，總有一款符合你的車與你的個性。</p></article>
+        <article><b>02</b><h3>騎士思維</h3><p>把通風、視野、舒適與防護放在一起，讓每一次出發都更有信心。</p></article>
+        <article><b>03</b><h3>買得簡單</h3><p>清楚的規格、價格與購物車流程，快速挑好你的下一頂帽子。</p></article>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div><p class="eyebrow">RIDEON CLUB</p><h2>加入騎士俱樂部 🏁</h2><p>收到新品、優惠與騎乘靈感。</p></div>
+      <form id="subscribeForm"><input type="email" placeholder="你的 Email" required><button>加入</button></form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">RIDE<span>ON</span></div>
+    <p>© 2026 RIDEON Helmet Lab · Helmet concept e-commerce demo</p>
+    <p>安全帽尺寸與認證請依實際商品規格確認。</p>
+  </footer>
+
+  <aside class="cart-panel" id="cartPanel">
+    <div class="cart-head"><h2>你的購物車</h2><button id="closeCart">×</button></div>
+    <div id="cartItems"></div>
+    <div class="cart-total"><span>合計</span><strong id="cartTotal">$0</strong></div>
+    <button class="checkout" id="checkout">前往結帳</button>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
